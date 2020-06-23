@@ -1,5 +1,5 @@
 .slider {
-  appearance: none;
+  appearance: inherit;
   height: 15px;
   border-radius: 5%;
   background: #919090;
@@ -18,7 +18,7 @@
 }
 
 .slider::-moz-range-thumb {
-  appearance: none;
+  appearance: inherit;
   height: 35px;
   width: 35px;
   background-color: cyan;

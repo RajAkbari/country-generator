@@ -6,14 +6,14 @@
 *::before {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
   position: relative;
   width: 100%;
   background-image: url(./assets/bgc.jpg);
-  background-position: center;
+  background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
